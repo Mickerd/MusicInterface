@@ -21,6 +21,6 @@ public class Regions
   @EventHandler(priority=EventPriority.NORMAL)
   public void onRegionLeae(RegionLeaveEvent e)
   {
-    e.getPlayer().performCommand("interface stop " + e.getPlayer().getName());
+    e.getPlayer().performCommand("interface toplayer " + e.getPlayer().getName() + " stop");
   }
 }
