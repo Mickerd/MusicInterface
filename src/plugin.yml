@@ -1,0 +1,9 @@
+name: MusicInterface
+description: Music for Minecraft servers
+main: me.musicinterface.com.m
+version: 0.0.1
+commands:
+   interface:
+      description: Plays music to player
+   url:
+      description: Gives the music url
