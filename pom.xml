@@ -5,6 +5,7 @@
   <version>0.0.1</version>
   
   <build>
+  <sourceDirectory>${basedir}/src</sourceDirectory>
 <resources>
 <resource>
 <directory>src/</directory>
@@ -13,7 +14,6 @@
 </includes>
 </resource>
 </resources>
-    <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>

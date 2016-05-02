@@ -7,7 +7,7 @@ public class toServer
 {
   public static void playToAll(String data)
   {
-    for (Player p : ) {
+    for (Player p : Bukkit.getOnlinePlayers()) {
       if (WebsocketSessionManager.getSessionManager().getSessionByName(p.getName()) != null) {
         WebsocketServer.s.sendData(WebsocketSessionManager.getSessionManager().getSessionByName(p.getName()), data);
       }
